@@ -21,6 +21,7 @@ const urlForUsername = username =>
               if (!response.ok) {
                   throw Error("Network request failed")
               }
+              return response
           })
 
 
